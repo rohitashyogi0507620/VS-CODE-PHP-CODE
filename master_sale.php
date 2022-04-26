@@ -6,6 +6,7 @@ header('Acess-Control-Allow-Origin: *');
 //require "connection.php";
 global $connect;
 
+// New Data is Here
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $post_data = file_get_contents('php://input', true);
